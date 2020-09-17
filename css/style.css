@@ -357,8 +357,9 @@ margin-top: 15px;
 }
 
 .sms h2{
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Monoton', cursive;
 	color: #cffffe;
+	font-size: 60px;
 }
 
 .sms p{
@@ -368,7 +369,7 @@ margin-top: 15px;
 }
 
 .society{
-	padding-top: 50px;
+	padding-top: 145px;
 	padding-bottom: 20px;
 	background: #006a71;
 }
@@ -705,7 +706,7 @@ transform: rotate(-135deg);
 .language-progress {
 	max-width: 280px;
 	list-style: none;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 .language-progress li {
