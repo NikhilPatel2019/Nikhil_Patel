@@ -37,9 +37,15 @@
           Nikhil
         </a>
 
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-Collapse">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-Collapse">
+          <span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span>
+        </button> -->
+
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbar-Collapse"
+  aria-controls="navbar-Collapse" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="animated-icon1"><span></span><span></span><span></span></div>
+</button>
 
         <div class="collapse navbar-collapse" id="navbar-Collapse">
           <ul class="navbar-nav ml-auto">
@@ -157,9 +163,9 @@
     <div class="section-title text-center">
       <h2>Skills</h2>
     </div>
-    <div class="row">
+    <div class="row text-center">
 
-      <div class="col-xl-6  skills-left">
+      <div class="col-md-6  skills-left">
 
         <ul class="language-progress">
           <li>HTML <div class="lan-prog" data-lanprogesss="4"></div></li>
@@ -169,7 +175,7 @@
           <li>Javascript <div class="lan-prog" data-lanprogesss="1"></div></li>
         </ul>
       </div>
-      <div class="col-xl-6">
+      <div class="col-md-6">
         <ul class="language-progress">
           <li>CSS <div class="lan-prog" data-lanprogesss="3"></div></li>
           <li>Java <div class="lan-prog" data-lanprogesss="3"></div></li>
@@ -277,6 +283,23 @@
      });
    }
  });
+
+// HAMBURGER MENU
+ $(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+  });
+});
 </script>
 
 
