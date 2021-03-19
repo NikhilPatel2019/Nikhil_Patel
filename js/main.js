@@ -1,20 +1,12 @@
-/* =================================
-------------------------------------
-	Civic - CV Resume
-	Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-
 
 'use strict';
 
 
-$(window).on('load', function() { 
+$(window).on('load', function() {
 	/*------------------
 		Preloder
 	--------------------*/
-	$(".loader").fadeOut(); 
+	$(".loader").fadeOut();
 	$("#preloder").delay(400).fadeOut("slow");
 
 });
@@ -57,7 +49,7 @@ $(window).on('load', function() {
 		var progress = $(this).data("lanprogesss");
 		var ele      = '<span></span>';
 		var ele_fade = '<span class="fade-ele"></span>';
-		
+
 		for (var i = 1; i <= 5; i++) {
 			if(i <= progress){
 				$(this).append(ele);
@@ -137,4 +129,3 @@ if($().circleProgress){
 }
 
 })(jQuery);
-

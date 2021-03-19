@@ -1,0 +1,33 @@
+body{
+  background-color: #cffffe;
+}
+
+@font-face {
+	font-family: 'Abril';
+  src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Julius';
+  src: url(../fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+	font-style: normal;
+}
+
+.heading{
+  font-size: 100px;
+  text-align: center;
+  color: #1d2d50;
+  margin-bottom: 0;
+  font-family: Abril;
+  font-weight: 400;
+}
+
+.reply{
+  font-size: 50px;
+  color: #1d2d50;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Julius;
+}

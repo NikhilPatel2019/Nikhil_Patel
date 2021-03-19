@@ -9,9 +9,6 @@
   <!-- Website Icon -->
   <link rel="icon" href="img\webicon.svg">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Balsamiq+Sans:wght@400;700&family=Julius+Sans+One&family=Kite+One&family=Monoton&family=Press+Start+2P&display=swap" rel="stylesheet">
-
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -23,6 +20,7 @@
 </head>
 
 <body>
+
   <!-- Page Preloder -->
   <div id="preloder">
     <div class="loader"></div>
@@ -33,24 +31,21 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-2" id="main-nav">
       <div class="container navting">
-        <a href="resume/Nikhil.pdf" target="_blank" class="navbar-brand mynavname">
-          Nikhil
+        <a href="#" class="navbar-brand mynavname">
+          <img class="initials-logo" src="img/logo.png" alt="Logo" height="100" width="100" />
         </a>
-
         <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-Collapse">
           <span class="dark-blue-text"><i
         class="fas fa-bars fa-1x"></i></span>
         </button> -->
-
-        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbar-Collapse"
-  aria-controls="navbar-Collapse" aria-expanded="false" aria-label="Toggle navigation">
-  <div class="animated-icon1"><span></span><span></span><span></span></div>
-</button>
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbar-Collapse" aria-controls="navbar-Collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon1"><span></span><span></span><span></span></div>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbar-Collapse">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="#About" class="nav-link myclass active marginadding">About Me</a>
+            <li class="nav-item ">
+              <a href="#About" class="nav-link myclass marginadding">About Me</a>
             </li>
             <li class="nav-item">
               <a href="#education" class="nav-link myclass marginadding">Education</a>
@@ -64,7 +59,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="#extras" class="nav-link myclass marginadding">Extras</a>
+              <a href="#contact" class="nav-link myclass marginadding">Contact Me</a>
             </li>
 
           </ul>
@@ -80,19 +75,16 @@
       <div class="row">
         <div class="col-xl-10 offset-xl-1">
           <div class="row">
-            <div class="text-center">
+            <div class="about-me">
               <div class="hero-text">
-                <h2 class="nameintro"> I am Nikhil Patel</h2>
-                <p class="intro">I’m a Front-end Developer and soon to be Full Stack Web Developer</p>
-              </div>
-              <div class="hero-info">
-                <h2>General Info</h2>
-                <ul>
-                  <li><span>Date of Birth</span>Aug 19, 1999</li>
-                  <li><span class="Homeaddress">Address</span>B-1, Ankur Park Society, chhapra Road, Navsari</li>
-                  <li><span class="Emailadd">E-mail</span>nikhil.17.patel@gmail.com</li>
-                  <li><span class="phnNo">Phone </span>+919687891444</li>
-                </ul>
+                <h2 class="nameintro"> Hi I'm Nikhil</h2>
+                <p class="intro">I'm Front-end web developer. Currently I'm working on building E-commerce website for
+                  my final year project with React, Node, Express and MongoDB.
+                </p>
+                <div class="col-md-4">
+                  <a href="resume/Nikhilkumar's Resume.pdf" target="_blank" class="hero-resume-button mb-5">
+                    Download Resume</a>
+                </div>
               </div>
             </div>
 
@@ -113,8 +105,7 @@
 
               <a href="https://www.linkedin.com/in/nikhilkumar-patel-312445149" target="_blank"><i class="fa fa-linkedin"></i></a>
               <a href="https://twitter.com/its_nikhil_p?s=09" target="_blank"><i class="fa fa-twitter"></i></a>
-              <a href=""><i class="fa fa-instagram"></i></a>
-              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href="https://github.com/NikhilPatel2019" target="_blank"><i class="fa fa-github"></i></a>
 
             </div>
             <h2 class="hidden-md hidden-sm socialProf">My Social Profiles</h2>
@@ -125,183 +116,218 @@
   </div>
 
   <!-- Education section -->
-	<section class="resume-section with-bg spad" id="education">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xl-7 offset-xl-2">
-					<div class="section-title">
-						<h2>Education</h2>
-					</div>
-					<ul class="resume-list">
-						<li>
-							<h2>2015</h2>
-							<h3>Secondary Education Board</h3>
-							<h4>Divine Public School, Navsari</h4>
-							<p>During my SSC board, I had a great oppurtinity to learn from experienced teachers they encouraged me, scold me and inspired me in Learning and Practicing. Without their help I won't be able to score 81% in my SCC board. Along with this some teacher also encourage me in Sports.</p>
-						</li>
-						<li>
-							<h2>2016 - 2017</h2>
-							<h3>Higher Secondary Education Board</h3>
-							<h4>Divine Public School, Navsari</h4>
-							<p>My journey during my higher secondary board(HSC) was not good from accedimecs point of view. I scored 59% in my HSC board. I didn't feel good with my scores and also think that I disappointed my teachers. But after a year I realized to not bother about it and take as learning from my mistakes. </p>
-						</li>
+  <section class="resume-section with-bg " id="education">
+    <div class="container-fluid spad">
+      <div class="row">
+        <div class="col-xl-7 offset-xl-2">
+          <div class="section-title">
+            <h2>Education</h2>
+          </div>
+          <ul class="resume-list">
+            <li>
+              <h2>2015</h2>
+              <h3>Secondary Education Board</h3>
+              <h4>Divine Public School, Navsari</h4>
+              <p>During my SSC board, I had a great opportunity to learn from experienced teachers who encouraged me, scold me and inspired me in Learning and Practicing. Without their help, I won't be able to score
+                <span class="percentages">81%</span> in my SCC board.</p>
+            </li>
+            <li>
+              <h2>2016 - 2017</h2>
+              <h3>Higher Secondary Education Board</h3>
+              <h4>Divine Public School, Navsari</h4>
+              <p> I scored <span class="percentages">59%</span> in my HSC board. </p>
+            </li>
             <li>
               <h2>2017 - Present</h2>
               <h3>Bachelor in Computer Engineering</h3>
               <h4>Aditya Silver Oak Institute of Technology, Ahmedabad</h4>
-              <p>My college Journey has been great till now. I currently have 9.1 CGPA and I have learned a lot during this 3 Years. I have worked on one project during which I was able to get skills in HTML, CSS and Bootstrap. </p>
+              <p>I currently have <span class="percentages">9.1</span> CGPA and I have learned a lot during these 3 Years. I have worked on small projects during which I was able to learn about HTML, CSS and Bootstrap and Javascript. Currently, I am
+                learning MERN stack development for building an E-commerce Website. </p>
             </li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</section>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Skills -->
 
   <div class="footer-top-section" id="skills">
     <div class="section-title text-center">
-      <h2>Skills</h2>
+      <h2 class="skills-heading">Skills</h2>
     </div>
-    <div class="row text-center">
 
-      <div class="col-md-6  skills-left">
-
-        <ul class="language-progress">
-          <li class="col-md 3"> <h1>HTML</h1><div class="lan-prog" data-lanprogesss="4"></div></li>
-          <li class="col-md 3"><h1>Bootstrap</h1> <div class="lan-prog" data-lanprogesss="4"></div></li>
-          <li class="col-md 3"><h1>C Programming</h1> <div class="lan-prog" data-lanprogesss="3"></div></li>
-          <li class="col-md 3"><h1>C++</h1> <div class="lan-prog" data-lanprogesss="2"></div></li>
-          <li class="col-md 3"><h1>Javascript</h1> <div class="lan-prog" data-lanprogesss="1"></div></li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <ul class="language-progress">
-          <li class="col-md 3"><h1>CSS</h1> <div class="lan-prog" data-lanprogesss="3"></div></li>
-          <li class="col-md 3"><h1>Java</h1> <div class="lan-prog" data-lanprogesss="3"></div></li>
-          <li class="col-md 3"><h1>UI Design</h1>  <div class="lan-prog" data-lanprogesss="2"></div></li>
-          <li class="col-md 3"><h1>Node.js</h1>  <div class="lan-prog" data-lanprogesss="1"></div></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</section>
-</div>
-
-<!-- Projects -->
-
-<section class="portfolio-section  pb-5 pt-5" id="projects">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-4 col-md-8 offset-xl-2 ">
-        <div class="section-title projsectitle">
-          <h2>Projects</h2>
+    <div class="container skills-known">
+      <div class="row">
+        <div class="col-sm cp">
+          C Programming
+        </div>
+        <div class="col-sm java-color">
+          Java
+        </div>
+        <div class="col-sm">
+          <span class="html-color">HTML</span> And <span class="css-color">CSS</span>
         </div>
       </div>
-      <div class="col-md-4 text-md-right">
-        <a href="resume/nikhil.pdf" target="_blank" class="site-btn mb-5">Download Resume</a>
+
+      <div class="row">
+        <div class="col-sm bootstrap-color">
+          Bootstrap
+        </div>
+        <div class="col-sm js">
+          Javascript
+        </div>
+        <div class="col-sm react-color">
+          React
+        </div>
       </div>
     </div>
-    <div class="portfolio-warp">
+
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  </div>
+
+  <!-- Projects -->
+
+  <section class="portfolio-section  pb-5 pt-5" id="projects">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-3 col-lg-6 col-md-6">
-          <div class="portfolio-item">
-            <a href="img/societyManagement.png" class="set-bg port-pic" data-setbg="img/societyManagement.png"> </a>
-            <a href="SMS.html">
-              <h2>Society Management System</h2>
-            </a>
-            <p>Front-end Developer</p>
+
+        <div class="col-xl-4 col-md-8 offset-xl-2 ">
+          <div class="section-title projsectitle">
+            <h2>Projects</h2>
           </div>
         </div>
+        <div class="col-md-4 text-md-right">
+          <a href="resume/Nikhilkumar's Resume.pdf" target="_blank" class="site-btn mb-5">Download Resume</a>
+        </div>
+      </div>
 
+      <div class="portfolio-warp">
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-6 col-md-6 proj">
+            <div class="portfolio-item">
+              <a href="projects/netflix.html">
+                <div class="netflix-img"> </div>
+              </a>
+              <a href="projects/netflix.html">
+                <h2>Netflix Clone With ReactJS</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-md-6 proj">
+            <div class="portfolio-item">
+              <a href="projects/javascript30.html">
+                <div class="js30-img"> </div>
+              </a>
+              <a href="projects/javaScript30.html">
+                <h2>JavaScript30</h2>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-md-6 proj">
+            <div class="portfolio-item">
+              <a href="projects/SMS.html ">
+                <div class="projects-img"> </div>
+              </a>
+              <!-- <img href="SMS.html" class="set-bg port-pic" data-setbg="img/societyManagement.png" /> -->
+              <a href="projects/SMS.html">
+                <h2>Society Management System</h2>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-6 col-md-6 proj">
+            <div class="portfolio-item">
+              <a href="projects/ecommerce.html">
+                <div class="ecommerce-img"> </div>
+              </a>
+              <a href="projects/ecommerce.html">
+                <h2>E-Commerce with ReactJS</h2>
+              </a>
+            </div>
+          </div>
+
+        </div>
 
       </div>
+
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- EXTRAS -->
-<section id="extras">
-  <div class="extras">
-    <div class="headsec mb-4 text-center">
-      <h2>EXTRAS</h2>
+  <!-- EXTRAS -->
+  <section id="extras">
+    <div class="extra">
+      <div class="headsec mb-4 text-center">
+        <h2>EXTRAS</h2>
+      </div>
+
+      <div class="designui text-center">
+        <a href="https://twitter.com/its_nikhil_p/status/1272903769710354432?s=20" target="_blank">
+          <h4>#100DaysOfDesign</h4>
+        </a>
+        <p>Desingned UI using Adobe XD tool. And completed my first challenge.</p>
+      </div>
+
+      <div class="designui text-center">
+        <a href="https://twitter.com/its_nikhil_p/status/1329804231696470020?s=20" target="_blank">
+          <h4>#JavaScript30</h4>
+        </a>
+        <p>Used Javascript to create small projects.</p>
+      </div>
     </div>
+  </section>
 
-    <div class="designui text-center">
-      <a href="https://twitter.com/its_nikhil_p/status/1272903769710354432?s=20" target="_blank"><h4>#100DaysOfDesign</h4></a>
-      <p>Desingned UI using Adobe XD tool. And completed my first challenge.</p>
+  <!-- Contact section start -->
+  <section class="contact-section spad" id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-8 offset-xl-2">
+          <div class="section-title">
+            <h2>Contact Me</h2>
+          </div>
+          <form class="contact-form" action="https://formsubmit.co/nikhil.17.patel@gmail.com" method="POST">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" placeholder="Name" required>
+              </div>
+              <div class="col-md-6">
+                <input type="email" placeholder="E-mail" required>
+
+              </div>
+              <div class="col-md-12">
+                <input type="text" name="_subject" placeholder="Subject">
+                <textarea placeholder="Message" required></textarea>
+              </div>
+            </div>
+            <div class="text-md-right">
+              <button type="submit" class="site-btn">Send message</button>
+            </div>
+            <input type="hidden" name="_next" value="https://nikhilpatel2019.github.io/Nikhil_Patel//thanks.html">
+          </form>
+        </div>
+      </div>
     </div>
-
-    <div class="certificates text-center">
-    <h3 class="certi">Certifications</h3>
-    <ul>
-      <li> <a href="certi/Udemy Web Development Bootcamp.pdf" target="_blank"> <p>The Complete 2020 Web Development Bootcamp</p> </a> </li>
-      <li> <a href="https://www.coursera.org/account/accomplishments/verify/WY5ZH4SDJDDA" target="_blank"> <p>What is Data Science?</p> </a> </li>
-      <li> <a href="https://www.coursera.org/account/accomplishments/verify/Q6TZW6S6UVD5" target="_blank"> <p>Introduction to Typography</p> </a> </li>
-      <li> <a href="https://www.coursera.org/account/accomplishments/verify/N4LF9VS336D9" target="_blank"> <p>Introduction to Data Analytics for Business</p> </a> </li>
-      <li> <a href="certi/NTAT.pdf" target="_blank"> <p>National Talent Acquisition Test 2018</p> </a> </li>
-    </ul>
-    </div>
-
-
-  </div>
-</section>
-
-
+  </section>
+  <!-- Contact section end -->
 
   <!--====== Javascripts & Jquery ======-->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/magnific-popup.min.js"></script>
-  <script src="js/circle-progress.min.js"></script>
   <script src="js/main.js"></script>
-
-<script type="text/javascript">
-//Init Scrollspy
- $('body').scrollspy({target: '.myclass'})
-
- //Smooth Scrolling
- $('.myclass ').on('click', function(e){
-   //Check for hash Value
-   if(this.hash !== ' '){
-     //Prevent Default behaviour
-     e.preventDefault();
-
-     //Store Hash
-     const hash = this.hash;
-
-     //Animate Smooth Scrool
-     $('html, body').animate({
-       scrollTop: $(hash).offset().top
-     }, 900, function(){
-       //Add Hash to URL after Scroll
-         window.location.hash =hash;
-     });
-   }
- });
-
-// HAMBURGER MENU
- $(document).ready(function () {
-
-  $('.first-button').on('click', function () {
-
-    $('.animated-icon1').toggleClass('open');
-  });
-  $('.second-button').on('click', function () {
-
-    $('.animated-icon2').toggleClass('open');
-  });
-  $('.third-button').on('click', function () {
-
-    $('.animated-icon3').toggleClass('open');
-  });
-});
-</script>
-
+  <script src="js/index.js"></script>
 
 </body>
 
